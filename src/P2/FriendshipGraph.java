@@ -44,7 +44,8 @@ public class FriendshipGraph {
 
         Set<Person> visited = new HashSet<>();
         Queue<Person> queue = new LinkedList<>();
-        int distance = 0;
+        int distance;
+        distance = 0;
         queue.offer(person1);
         visited.add(person1);
         while (!queue.isEmpty()) {
